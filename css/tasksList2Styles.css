@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat";
+}
+
+body {
+	height: 100vh;
+	background: linear-gradient(to right, #119cea 40%, black 80%);
+}
+
+main.app {
+	width: 700px;
+	margin: 200px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+div.painel {
+	width: 100%;
+	height: 40px;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 15px;
+	align-items: center;
+}
+
+div.painel input {
+	height: 28px;
+	width: 28px;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+div.painel .title {
+	color: #000;
+	width: 100%;
+	font-size: 25px;
+	font-weight: 600;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-between;
+}
+
+div.actions {
+	height: 40px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #33333355;
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+	padding-left: 15px;
+	margin-top: 5px;
+}
+
+div.actions button {
+	height: 100%;
+	width: 80px;
+	background-color: #109cea;
+	border: 0;
+	cursor: pointer;
+	color: #fff;
+	font-size: 18px;
+	font-family: "Montserrat";
+}
+
+
+
+/*** TASKS CONTAINER ***/
+
+
+div.tasks-container {
+	width: 100%;
+}
+
+ul.tasks {
+	display: flex;
+	flex-direction: column;
+}
+
+li.task {
+	position: relative;
+	height: 40px;
+	list-style: none;
+	margin: 5px 0;
+}
+
+
+.task:hover span.task-txt {
+	width: calc(100% - 40px);
+	margin-left: 40px;
+}
+
+div.delete-btn {
+	position: absolute;
+	height: 100%;
+	background-color: tomato;
+	width: 40px;
+	text-align: center;
+	align-content: center;
+	font-size: 35px;
+	line-height: 40px;
+}
+
+div.delete-btn:hover {
+	cursor: pointer;
+}
+
+.task-txt {
+	position: absolute;
+	background-color: white;
+	width: 100%;
+	line-height: 40px;
+	padding-left: 15px;
+	cursor: pointer;
+	transition: all .3s ease-in;
+	z-index: 1;
+}
+
+.tasks .completed {
+	background-color: grey;
+	text-decoration: line-through;
+	color: lightgrey;
+	font-style: italic;
+}
+
