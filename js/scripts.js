@@ -10,6 +10,6 @@ async function deleteTask(task) {
 
 function doDelete(li) {
 	setInterval(() => {
-		li.style.transform = "rotateY(630deg)";
+		li.style.transform = "perspective(10cm) rotateY(630deg)";
 	}, 2200);
 }
