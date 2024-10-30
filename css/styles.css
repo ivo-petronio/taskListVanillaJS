@@ -31,7 +31,7 @@ main.app {
 div.painel {
 	width: 100%;
 	height: 40px;
-	background-color: #ffffff;
+	background-color: #000;
 	display: flex;
 	justify-content: space-between;
 	padding-left: 15px;
@@ -46,7 +46,7 @@ div.painel input {
 }
 
 div.painel .title {
-	color: #000;
+	color: #119cea;
 	width: 100%;
 	font-size: 25px;
 	font-weight: 600;
@@ -99,6 +99,7 @@ li.task {
 	height: 40px;
 	list-style: none;
 	margin: 5px 0;
+	transition: 2s ease-out;
 }
 
 
@@ -110,12 +111,14 @@ li.task {
 div.delete-btn {
 	position: absolute;
 	height: 100%;
-	background-color: tomato;
+	background-color: red;
 	width: 40px;
-	text-align: center;
-	align-content: center;
-	font-size: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
 	line-height: 40px;
+	border: none;
 }
 
 div.delete-btn:hover {

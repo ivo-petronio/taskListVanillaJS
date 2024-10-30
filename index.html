@@ -3,6 +3,7 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
 	<title> Tasks List </title>
 	<link rel="stylesheet" href="css/styles.css">
 </head>
@@ -19,15 +20,15 @@
 			<div class="tasks-container">
 				<ul class="tasks">
 					<li class="task">
-						<div class="delete-btn"> <ion-icon name="trash"></ion-icon> </div>
+						<div class="delete-btn" onclick="deleteTask(this)"> <ion-icon name="trash"></ion-icon> </div>
 						<span class="task-txt" onclick="completeTask(this)"> Adicione uma tarefa clicando no botão acima </span>
 					</li>
 					<li class="task">
-						<div class="delete-btn"> <ion-icon name="trash"></ion-icon> </div>
+						<div class="delete-btn" onclick="deleteTask(this)"> <ion-icon name="trash"></ion-icon> </div>
 						<span class="task-txt" onclick="completeTask(this)"> Passe o cursor para ver o botão delete. </span>
 					</li>
 					<li class="task">
-						<div class="delete-btn"> <ion-icon name="trash"></ion-icon> </div>
+						<div class="delete-btn" onclick="deleteTask(this)"> <ion-icon name="trash"></ion-icon> </div>
 						<span class="task-txt" onclick="completeTask(this)"> Clique sobre a tarefa para marcá-la como concluída </span>
 					</li>
 				</ul>
@@ -35,6 +36,7 @@
 		</div>
 	</main>
 	<script src="js/scripts.js"></script>
+	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 
 </html>
