@@ -39,7 +39,7 @@ div.painel {
 }
 
 div.painel input {
-	height: 28px;
+	height: 100%;
 	width: 28px;
 	cursor: pointer;
 	margin-right: 10px;
