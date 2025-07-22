@@ -38,7 +38,7 @@ div.painel {
 	align-items: center;
 }
 
-div.painel input {
+div.painel input=checkbox {
 	height: 40px;
 	cursor: pointer;
 	margin-right: 10px;
