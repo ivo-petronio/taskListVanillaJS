@@ -44,7 +44,7 @@ div.painel input {
 	margin-right: 10px;
 }
 
-div.painel input.taskText {
+div.actions.taskText {
 	height: 100%;
 	width: 100%;
 	border: none;
