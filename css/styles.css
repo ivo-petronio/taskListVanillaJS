@@ -44,7 +44,7 @@ div.painel {
 	margin-right: 10px;
 }*/
 
-div.actions.taskText {
+.taskText {
 	height: 40px;
 	line-height: 40px;
 	width: 100%;
