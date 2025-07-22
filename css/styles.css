@@ -38,11 +38,11 @@ div.painel {
 	align-items: center;
 }
 
-div.painel input=[checkbox] {
+/*div.painel input=[checkbox] {
 	height: 40px;
 	cursor: pointer;
 	margin-right: 10px;
-}
+}*/
 
 div.actions.taskText {
 	height: 40px;
